@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #393939;
+}
+
+section.top{
+    width: 100%;
+    height: 100vh;
+    background-color:#393939;
+    border-bottom: rgb(36, 34, 34) 3px solid;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.logo{
+    width: 120px;
+    line-height: 100px;
+    float: left;
+}
+
+nav.nav-top ul{
+    line-height: 100px;
+    float: right;
+}
+
+nav.nav-top ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 25px;
+}
+
+nav.nav-top ul li a{
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav.nav-top ul li a:hover{
+    border-bottom: solid 3px #2FD62C;
+}
+
+.center{
+    transform: translateY(25vh);
+    display: flex;
+}
+.text{
+    float: left;
+    margin-right: 15px;
+}
+
+h1{
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+
+#name{
+    color: #2FD62C;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+p{
+    width: 90vh;
+    margin-bottom: 25px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.hero{
+    width: 400px;
+    float: right;   
+}
+
+#hm{
+    text-decoration: none;
+    color: black;
+    background-color: #2FD62C;
+    border: 1px solid #2FD62C;
+    padding: 5px 15px;
+    border-radius: 7px;
+    font-weight: 500;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#hm:hover{
+    background-color: #393939;
+    color: white;
+    border-color: white;
+}
+
+#km{
+    text-decoration: none;
+    color: white;
+    background-color: none;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#km:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+nav.socmeds ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav.socmeds ul li a{
+    margin: 5px;
+    
+}
+
+nav.socmeds ul li:hover{
+    border-bottom: solid 3px #2FD62C;
+}
+
+.navsoc{
+    width: 30px;
+    margin-top: 80px;
+    padding-bottom: 5px;
+}
+
+section.mid{
+    width: 100%;
+    height: 90vh;
+    background-color:#272727;
+    border-bottom: rgb(36, 34, 34) 3px solid
+}
+
+#about{
+    border-left: #2FD62C 5px solid;
+    padding-left: 10px;
+    line-height: 50px;
+    margin: 7vh 12vh;
+    float: left;
+    font-weight: 600;
+}
+
+#desc{
+    transform: translateY(3vh);
+    width: 80%;
+    margin-left: 22vh;
+    float: left;
+    font-weight: 400;
+}
+
+section.bot{
+    width: 100%;
+    height: 88vh;
+    background-color:#393939;
+    border-bottom: rgb(36, 34, 34) 3px solid
+}
+
+.hl{
+    color: #2FD62C;
+}
+
+#skill{
+    border-left: #2FD62C 5px solid;
+    padding-left: 10px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#skill-text{
+    width: 80%;
+    font-weight: 400;
+    margin-left: 12vh;
+    margin-top: 5vh;
+}
+
+.skl{
+    width: 90%;
+    margin: auto;
+}
+
+.cont{
+    transform: translateY(35vh);
+    width: 85%;
+    margin: auto;
+}
+
+.skill-container{
+    width: 90%;
+    height: 18px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#designing{
+    background-color: #2FD62C;
+    width: 73%;
+    height: 18px;
+    border-radius: 10px;
+}
+
+#designing span{
+    margin-left: 89%;
+}
+
+#css{
+    background-color: #2FD62C;
+    width: 61%;
+    height: 18px;
+    border-radius: 10px;
+}
+
+#css span{
+    margin-left: 87%;
+}
+
+#java{
+    background-color: #2FD62C;
+    width: 80%;
+    height: 18px;
+    border-radius: 10px;
+}
+
+#java span{
+    margin-left: 90%;
+}
+
+#html{
+    background-color: #2FD62C;
+    width: 67%;
+    height: 18px;
+    border-radius: 10px;
+}
+
+#html span{
+    margin-left: 88%;
+}
+
+
+#javascript{
+    background-color: #2FD62C;
+    width: 59%;
+    height: 18px;
+    border-radius: 10px;
+}
+
+#javascript span{
+    margin-left: 87%;
+}
+
+#php{
+    background-color: #2FD62C;
+    width: 55%;
+    height: 18px;
+    border-radius: 10px;
+}
+
+#php span{
+    margin-left: 86%;
+}
+
+.left-cont{
+    float: left;
+    margin-left: 45px;
+}
+
+.left-cont span{
+    color: white;
+    font-size: 15px;
+}
+
+.right-cont span{
+    color: white;
+    font-size: 15px;
+}
+
+.right-cont{
+    float: right;
+}
+
+.right-cont p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.skills p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.foot{
+    width: 100%;
+    margin: auto;
+}
+
+.footer{
+    height: 30vh;
+    background-color: #272727;
+}
+#footlogo{
+    height: 60px;
+    margin-bottom: 15px;
+}
+#tagfoot{
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+#foott{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+}
+#c{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 18px;
+    margin-left: 28%;
+}
+.row{          
+    display: flex;
+}
+.col{
+    margin-left: 50px;
+    margin-top: 45px;
+    color: white;
+    font-size: 15px;
+}
+.col ul{
+    list-style-type: none;
+}
+#cont{
+    margin-left: 250px;
+    display: flex;
+}
+#cont ul li a{
+text-decoration: none;
+color: white;
+}
+
+
+
+
